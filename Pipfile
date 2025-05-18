@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-docx = "*"
+python-dotenv = "*"
+openai = "*"
+openpyxl = "*"
+pandas = "*"
+scikit-learn = "*"
+fastapi = "*"
+uvicorn = "*"
+python-multipart = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"

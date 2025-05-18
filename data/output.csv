@@ -1,0 +1,536 @@
+Câu số,Câu hỏi,Đáp án A,Đáp án B,Đáp án C,Đáp án D,Đáp án đúng
+1,Câu 1: Lập trình mạng phân tán là:,a. Lập trình mạng phân tán thường có 2 khái niệm chính  là: peer to peer và client - server.(1),b. Lập trình peer to peer là lập trình ngang hàng giữa 2 máy tính.(2),"c. Lập trình client – server là lập trình cho phép n máy client kết nối với m máy server, đây cũng là mô hình chúng ta sẽ gặp nhiều trong thực tế.(3)","d. Cả  1,2,3 đúng.",Đáp án: a
+2,Câu 2:  Căn cứ theo mức độ thân thiện với developer và khả năng triển khai ta có thể chia lập trình mạng thành mấy cấp độ?,a. 3,b. 4,c. 2,d. 5,Đáp án : a
+3,Câu 3: Căn cứ theo mức độ thân thiện với developer và khả năng triển khai ta có thể chia lập trình mạng thành?,a. Tất cả các ý trên.,b. Mức lập trình sử dụng socket.,"c. Mức lập trình sử dụng, triển khai ứng dụng theo mô hình dịch vụ (service).",d. Mức lập trình ứng dụng theo mô hình triển khai trên web.,Đáp án: a
+4,Câu 4:  Định nghĩa về hệ phân tán phù hợp nhất với các hệ phân tán tốt nhất hiện nay la :,a.  Hệ phân tán là một tổ hợp các máy tình độc lập được sử dụng kết hợp để thực hiện một tác vụ hoặc để cung cấp một dịch vụ.(1),b. Hệ phân tán là một tổ hợp các máy tình độc lập mà đối với người dùng nó có vẻ như một hệ thống đơn nhất quán.(2),c. Cả 2 khái niệm (1) và (2) trên đều đúng.,d.  Cả 2 khái niệm (1) và (2) trên đều sai.,Đáp án: a
+5,Câu 5: Theo Andrew Tanbaum thì hệ phân tán là:,a. Hệ phân tán là một tổ hợp các máy tình độc lập mà đối với người dùng nó có vẻ như một hệ thống đơn nhất quán.(1),b. Hệ phân tán là một tổ hợp các máy tình độc lập được sử dụng kết hợp để thực hiện một tác vụ hoặc để cung cấp một dịch vụ.(2),c. Cả 2 khái niệm (1) và (2) trên đều đúng.,d. Cả 2 khái niệm (1) và (2) trên đều sai.,Đáp án: a
+6,Câu 6: Ưu điểm của hệ phân tán gồm :,"a. Chi phí, hiệu năng, khả năng mở rộng, độ tin cậy, tính phân tán cố hữu.","b. Hiệu năng, khả năng mở rộng, độ tin cậy, tính phân tán cố hữu, bảo mật.","c. Chi phí, hiệu năng, khả năng mở rộng, độ tin cậy, bảo mật.","d. Chi phí, hiệu năng, bảo mật, độ tin cậy, tính phân tán cố hữu.",Đáp án: a
+7,Câu 7:  Nhược điển của hệ phân tán bao gồm :,"a. Thành phần mới, bảo mật, độ phức tạp.","b. Tính phân tán cố hữu, bảo mật, độ phức tạp.","c. Thành phần mới,độ phức tạp.","d. Bảo mật, độ phức tạp.",Đáp án: a
+8,Câu 8: Hệ phấn tán có mấy mô hình ứng dụng ?,a. 5,b. 4,c. 6,d. 3,Đáp án: a
+9,Câu 9: Các mô hình ứng dụng gồm :,"a. Mô hình tính toán tập trung, mô hình desktop, mô hình 2 lớp, mô hình 3 lớp, mô hình đa lớp.","b. Mô hình tính toán tập trung, mô hình desktop, mô hình 2 lớp, mô hình 3 lớp, mô hình đa lớp.","c. Mô hình tính toán tập trung, mô hình desktop, mô hình 2 lớp, mô hình đa lớp.","d. Mô hình tính toán tập trung, mô hình desktop, mô hình 2 lớp, mô hình 3 lớp.",Đáp án: a
+10,Câu 10: Mô hình 3 lớp(3 - tier) được chia lần lượt thành các lớp :,"a. Presentation logic, Business logic, Data Access logic.","b. Business logic, Presentation logic, Data Access logic.","c. Presentation logic, Data Access logic, Business logic.","d. Data Access logic,Presentation logic,  Business logic.",Đáp án: a
+11,"Câu 11:  Trong mô hình 3 lớp,các chức năng của chương trình được tách ra thành 3 lớp riêng biệt. Việc tách lớp này làm cho các phần của chương trình trở lên:","a. chương trình trở lên độc lập hơn, đáng tin cậy hơn. Chương trình trở lên linh đọng hơn trong việc thay thế, nâng cấp và do đó mô hình này rất thích hợp với những ứng dụng có yêu cầu thay đổi thường xuyên.","b. chương trình trở lên độc lập hơn, đáng tin cậy hơn.",c. chương trình trở lên linh động hơn trong việc thay thế và nâng cấp.,d. chương trình trở lên thích hợp với những ứng dụng có yêu cầu thay đổi thường xuyên.,Đáp án : a
+12,"Câu 12: Trong mô hình 3 lớp, lớp giao diện (Presentation logic) la :","a. Lớp này là cầu nối giữa người dùng với ứng dụng, cung cấp những chức năng ứng dụng cho người dùng và nhận lênh từ người dùng cho ứng dụng.","b. Lớp này là phần lõi của một chương trình, cung cấp tất cả những chức năng nghiệp vụ của chương trình cho lớp nghiệp vụ bên trên.",c. Lớp này cung cấp khả năng truy xuất đến CSDL cho lớp nghiệp vụ nếu cần.,d. Không có đáp án đúng.,Đáp án: a
+13,"Câu 13:  Trong mô hình 3 lớp, lớp nghiệp vụ (Business logic) là:","a. Lớp này là phần lõi của một chương trình, cung cấp tất cả những chức năng nghiệp vụ của chương trình cho lớp nghiệp vụ bên trên.",b. Lớp này cung cấp khả năng truy xuất đến CSDL cho lớp nghiệp vụ nếu cần.,"c. Lớp này là cầu nối giữa người dùng với ứng dụng, cung cấp những chức năng ứng dụng cho người dùng và nhận lênh từ người dùng cho ứng dụng.",d. Không có đáp án đúng.,Đáp án: a
+14,"Câu 14: Trong mô hình 3 lớp, lớp CSDL (Data Access logic) là:",a. Lớp này cung cấp khả năng truy xuất đến CSDL cho lớp nghiệp vụ nếu cần.,"b. Lớp này là phần lõi của một chương trình, cung cấp tất cả những chức năng nghiệp vụ của chương trình cho lớp nghiệp vụ bên trên.","c. Lớp này là cầu nối giữa người dùng với ứng dụng, cung cấp những chức năng ứng dụng cho người dùng và nhận lênh từ người dùng cho ứng dụng.",d. Không có đáp án đúng.,Đáp án: a
+15,Câu 15: Mô hình 2 lớp (two_tier) chia làm mấy loại ?,a. 2,b. 3,c. 4,d. 5,Đáp án: a
+16,Câu 16:  Mô hình 2 lớp loại tính toán tập trung ở máy khách ( fat client_thin server ) có khuyết điểm gì?,"a. Cả 1,2,3.",b. Do tính toán nghiêng về phía client nên đồi hỏi client phải có cấu hình đủ mạnh.(1),c. Do lớp chức năng của chương trình nằm ở phía client nên khi chương trình cần nâng cấp thì sẽ rất khó khăn vì phải cập nhật lại chương trình nằm ở toàn bộ các client. (2),d. Do mọi thao tác nằm trên client nên thao tác yêu cầu dữ liệu giữa client và server nhiều dẫn đến tốc độ chương trình chậm. (3),Đáp án: a
+17,Câu 17:  Mô hình 2 lớp loại tính toán tập trung ở máy chủ ( fat  server_thin client ) có ưu điểm gì?,"a. Cả 1,2,3.",b. Giảm sự lưu thông trên mạng và tốc độ nhanh hơn do lớp choc năng của chương trình nằm ở máy chủ cùng với CSDL.(1),c. Mọi thao tác với CSDL của chương trình đều được thực hiện gay trên máy chủ và thông tin lưu thông trên mạng chỉ là những kết quả được trả về cho người dùng sau khi được tính toán. (2),d. Do phần lùi của chương trình được đặt tập trung tại máy chủ nên việc cập nhật chương trình sẽ dễ dàn hơn. (3),Đáp án : a
+18,Câu 18: Nhược điểm của mô hình tính toán tập trung là ?,"a. Cả 1,2,3.",b. Tất cả các xử lý đều được thực hiện trên máy frame.(1),"c. Các thiết bị đầu cuối chỉ có nhiệm vụ hiển thị giao diện người dùng và tương tác với người sử dụng, chúng không có bất cứ xử lý nào.",d. năng lực tính toán của máy frame nhanh chóng giảm xuống khi có nhiều người sử dụng đồng thời.(3),Đáp án : a
+19,Câu 19 : Trong mô hình 2 lớp(two_tier) thì lớp server có nhiệm vụ gì ?,"a. Quản lý dữ liệu, bảo mật, quản lý người dùng, thực thi các truy vấn, ràng buộc và các thủ tục lưu trữ.","b. Quản lý người dùng, thực thi các truy vấn, ràng buộc và các thủ tục lưu trữ.","c. Quản lý dữ liệu, bảo mật.","d. Quản lý dữ liệu, bảo mật, thực thi các truy vấn.",Đáp án : a
+20,Câu 20 :  Nhược điểm của mô hình đa lớp(n_tier) là ?,"a. Khó xây dựng, nâng cấp, bảo trì ứng dụng.",b. Không đảm bảo độ tin cậy.,c. Tốc độ dữ liệu bị hạn chế.,d. Tốn kém trong việc sử dụng phần cứng.,Đáp án: a
+21,Câu 21 :  Lợi ích của các ứng dụng phân tán là gì ?,"a.  ứng dụng có khả năng mở rộng cao, dễ nâng cấp và bảo trì ứng dụng.",b.  ứng dụng không có khả năng mở rộng cao,c.  Tốc độ truyền dữ liệu nhanh,d.  Không tốn kém trong việc sử dụng phần cứng.,Đáp án : a
+22,Câu 22 :  Phát biểu nào đúng ?,"a.  Một ứng dụng phân tán có tất cả các lợi ích của phương pháp lập trình hướng thành phần, ngoài ra còn có các lợi ích khác",b.  Một ứng dụng phân tán không có đầy đủ các lợi ích của phương pháp lập trình hướng thành phần,c.  Một ứng dụng phân tán chỉ có một số lợi ích của phương pháp lập trình hướng thành phần,d.  Một ứng dụng phân tán có các lợi ích khác với phương pháp lập trình hướng thành phần,Đáp án : a
+23,Câu 23 :  Phát biểu nào sai ?,"a.  Một ứng dụng phân tán có tất cả các lợi ích của phương pháp lập trình hướng thành phần, ngoài ra còn có các lợi ích khác",b.  Một trong các lợi ích của ứng dụng phân tán là: dễ nâng cấp và bảo trì ứng dụng,c.  Một ứng dụng phân tán chỉ có một số lợi ích của phương pháp lập trình hướng thành phần,d.  Một trong các lợi ích của ứng dụng phân tán là: dễ dàng quản lý bảo mật,Đáp án : a
+24,Câu 24 :  Lập trình phân tán với COM+/MTS  từ COM viết tắt của từ nào?,a.  Component Object Model,b.  Computer Object Model,c.  Component Ouput Model,d.  Component Object Memory,Đáp án : a
+25,Câu 25 :  Lập trình phân tán với COM+/MTS  từ MTS viết tắt của từ nào?,a.  Microsoft Transaction Server,b.  Mycomputer Transaction Server,c.  Memmory Transaction Server,d.  Microsoft Transaction System,Đáp án : a
+26,Câu 26 :  Các thành phần của COM trong Lập trình phân tán với COM+/MTS  được viết bằng một trong những ngôn ngữ lập trình  nào?,a.  Visual Basic,b.   Prolog,c.   C,d.   Pascal,Đáp án : a
+27,Câu 27 :  Lập trình phân tán đối tượng với RMI từ RMI được viết tắt của từ nào?,a.  Remote Method Invoke,b.   Read Method Invoke,c.   Read Method Input,d.   Remote Memory Invoke,Đáp án : a
+28,Câu 28 :  Từ nào được hiểu là triệu gọi giao thức từ xa ?,a.  Remote Method Invoke,b.   Read Method Invoke,c.   Read Method Input,d.   Remote Memory Invoke,Đáp án : a
+29,Câu 29 :  RMI là công nghệ gì ?,a.  Công nghệ thuần Java,b.  Công nghệ thuần dot net,c.  Lập trình Visual basic,d.  Lập trình Visual C++,Đáp án : a
+30,Câu 30 : Công cụ nào là cách thức giao tiếp giữa các đối tượng java có mã lệnh cài đặt (bao gồm phương thức và thuộc tính) nằm trên các máy khác nhau có thể triệu gọi lẫn nhau?,a.  RMI,b.   COM+/MTS,c.   MDI,d.   Class,Đáp án : a
+31,Câu 31: Công cụ nào là cách thức giao tiếp giữa các đối tượng java có mã lệnh cài đặt (bao gồm phương thức và thuộc tính) nằm trên các máy khác nhau có thể triệu gọi lẫn nhau?,a.  Remote Method Invoke,b.   Read Method Invoke,c.   Read Method Input,d.   Remote Memory Invoke,Đáp án : a
+32,Câu 32 :  Một ứng dụng có mã lệnh thực thi được phân tán trên nhiều máy thì được gọi là gì ?,a.  Chương trình phân tán,b.  Lập trình phân tán,c.  Cơ sở dữ liệu phân tán,d.  Remote Memory Invoke,Đáp án : a
+33,Câu 33 : Việc lập trình để tạo ra các chương trình phân tán được gọi là gì ?,a.  Lập trình phân tán,b.  Lập trình cơ sở dữ liệu,c.  Lập trình mạng,d.  Lập trình hướng đối tượng,Đáp án : a
+34,"Câu 34 :  Lập trình phân tán đối tượng với Corba, từ Corba là gì ?",a.  Kiến trúc môi giới các đối tượng,b.  Lập trình cơ sở dữ liệu,c.  Kiến trúc cơ sở dữ liệu,d.  Lớp đối tượng,Đáp án : a
+35,"Câu 35: Lập trình phân tán đối tượng với Corba, trong đó từ Corba viết đầy đủ như thế nào?",a.  Common Object Request Broker Architecture,b.  Computer Object Request Broker Architecture,c.  Common Ouput Request Broker Architecture,d.  Common Object Read Broker Architecture,Đáp án : a
+36,"Câu 36 :  Lập trình phân tán đối tượng với Corba, trong đó từ Corba được xây dựng bởi tổ chức nghiên cứu nào?",a.  OMG (Object Manager Group),b.  WTO (World Trade Organization),c.  WHO (World Health Organization),d.  APEC (Asia-Pacific Economic Cooperation),Đáp án : a
+37,Câu 37:  Remoting là gì?,a.   Là công nghệ lập trình phân tán của . NET,b.   Là công nghệ lập trình phân tán của java,c.   Tất cả đều đúng,d.   Tất cả đều sai,Đáp án : a
+38,Câu 38:  Phát biểu nào sai ?,"a.   Lập trình phân tán REMOTING trong .NET, Client và Server không cùng giao diện của Remoting","b.   Lập trình phân tán REMOTING trong .NET, Client và Server cùng có giao diện của Remoting","c.   Lập trình phân tán REMOTING trong .NET, Client kết nối tới remoting services để lấy tham chiếu đối tượng Remote","d.   Lập trình phân tán REMOTING trong .NET, Server triển khai đối tượng, đăng ký với Remoting channel services.",Đáp án : a
+39,Câu 39:  Đâu không phải là đặc điểm của Web Service ?,a.  Web service không cho phép client và server tương tác được với nhau trong những môi trường khác nhau,b.  Web service cho phép client và server tương tác được với nhau mặc dù trong những môi trường khác nhau,c.   Web service được thiết kế mở và dựa vào các chuản: XML và HTTP,d.   Web service có thể công bố (publish) va gọi thực hiện qua mạng,Đáp án : a
+40,Câu 40 : Vai trò của Web Service?,a.  Web service ra đời mở ra hướng mới cho việc phát triển các ứng dụng trên Internet,b. Web service ra đời mở ra hướng mới cho việc phát triển các ứng dụng trên mạng LAN,c.  Web service được thiết kế mở và dựa vào các chuản: XML và HTTP,d. Web service ra đời mở ra hướng mới cho việc phát triển các ứng dụng trên hệ điều hành Windows,Đáp án : a
+41,Câu 41 :  Cơ sở dữ liệu nào cần phải sử dụng mạng máy tính?,a.  Cơ sở dữ liệu phân tán,b.  Cơ sở dữ liệu hướng đối tượng,c.  Cơ sở dữ liệu quan hệ,d.  Tất cả các cơ sở dữ liệu trên,Đáp án : a
+42,Câu 42:  Hệ quản trị cơ sở dữ liệu phân tán là gì?,a.  Là hệ thống các phần mềm cho phép quản trị cơ sở dữ liệu phân tán và làm cho sự phân tán đó là trong suốt đối với người sử dụng,b.  Là hệ thống các phần mềm cho phép quản trị cơ sở dữ liệu có thể tìm kiếm dữ liệu từ nhiều máy đến chỉ một máy thông qua mạng,c.   Là hệ thống các phần mềm cho phép quản trị cơ sở dữ liệu có thể lưu trữ đến một máy thông qua mạng,d.   Là hệ thống các phần mềm cho phép quản trị cơ sở dữ liệu phân tán,Đáp án : a
+43,Câu 43:  Đâu là tên gọi của mô hình cơ sở dữ liệu phân tán?,a.   Distributed Database Model,b.   Data Database Model,c.   Distributed Data Model,d.   Distributed Database Memmory,Đáp án : a
+44,"Câu 44 :  Trong cơ sở dữ liệu phân tán, sự điều khiển được thực hiện theo một cấu trúc điều khiển phân cấp bao gồm mấy loại người quản trị CSDL",a.   1,b.   2,c.   3,d.   4,Đáp án : a
+45,Câu 45:  Ai là người có trách nhiệm chính về toàn bộ cơ sở dữ liệu phân tán?,a.   Người quản trị cơ sở dữ liệu toàn cục,b.   Người quản trị cơ sở dữ liệu cục bộ,c.   Người sử dụng,d.   Nhân viên kỹ thuật,Đáp án : a
+46,Câu 46:  Muốn tạo lập cơ sở dữ liệu trong Oracle Database XE bước 1 click vào đâu?,a.  Application Express,b.  Parameters,c.  Sessions,d.  Storage,Đáp án : a
+47,Câu 47:  Trong Oracle Database XE kích vào Application Express để thực hiện công việc gì?,a.  Để tạo ra một cơ sở dữ liệu mới,b.  Để lưu trữ dữ liệu,c.  Truyền thông điệp,d.  Truyền tham số,Đáp án : a
+48,Câu 48:  Trong Oracle Database XE đâu là tên cơ sở dữ liệu dùng để giao dịch với máy khác thông qua mạng máy tính,a.  Application Express User name,b.  Database User name,c.  Table name,d.  Form name,Đáp án : a
+49,"Câu 49:  Trong Oracle Database XE, sau khi đã khai báo  Application Express User name, Database User name, Password kích chuột vào nút nào?",a.  Create Workspace,b.  Create Table,c.  Design,d.  Use Existing,Đáp án : a
+50,Câu 50:  Trong Oracle Database XE đâu là tên cơ sở dữ liệu dùng để tạo ra tại một máy tính,a.  Database User name,b.  Application Express User name,c.  Table name,d.  Form name,Đáp án : a
+51,"Câu 51:  Trong Oracle SQL Developer, khi chọn  Database Links thực hiện công việc gì?",a.  Tạo liên kết với cơ sở dữ liệu máy khác thông qua mạng LAN,b.  Tạo liên kết với các cơ sở dữ liệu trong cùng một máy,c.  Tạo liên kết giữa Oracele với SQL Server,d.  Tạo liên kết giữa các Table,Đáp án : a
+52,Câu 52:  Muốn tạo liên kết với cơ sở dữ liệu máy khác thông qua mạng LAN bạn chọn ứng dụng nào?,a.  Database Links,b.  Hyperlink,c.  LinkTable,d.  Links Database,Đáp án : a
+53,Câu 53:  Bản chất của cơ sở dữ liệu phân tán là gì?,"a.  Dữ liệu nằm ở các máy khác nhau, tất cả các máy trong mạng LAN có thể sử dụng được dữ liệu đó","b.  Dữ liệu nằm ở trên một máy, tất cả các máy trong mạng LAN có thể sử dụng được dữ liệu đó",c.  Dữ liệu nằm ở trên các ổ đĩa khác nhau của máy,d.  Dữ liệu nằm ở trên các thư mục khác nhau của máy,Đáp án : a
+54,Câu 54:  Ai là người có trách nhiệm chính về toàn bộ cơ sở dữ liệu phân tán?,a.  Global Database Administrator,b.  Local Database Administrator,c.  User,d.  Administrator,Đáp án : a
+55,Câu 55:  Ai là người có trách nhiệm chính về cơ sở dữ liệu cục bộ của họ?,a.  Local  Database Administrator,b.  Global Database Administrator,c.  User,d.  Administrator,Đáp án : a
+56,"Câu 56:  Trong cơ sở dữ liệu phân tán, thuật ngữ Distribution Transparency là gì?",a.  Sự trong suốt phân tán,b.  Sự phân chia,c.  Độc lập dữ liệu,d.  Sự phân mảnh,Đáp án : a
+57,"Câu 57: Trong cơ sở dữ liệu phân tán, thuật ngữ nào là sự trong suốt phân tán?",a.  Distribution Transparency,b.  Distribution Transport,c.  Data Transparency,d.  Distribution Technology,Đáp án : a
+58,Câu 58: Từ nào là tên gọi của hệ quản trị cơ sở dữ liệu phân tán?,a.  Database Distributed Management System,b.  Database Distributed Memory System,c.  Database Distributed Management Sign,d.  Database Drop Management System,Đáp án : a
+59,Câu 59:  Database Distributed Management System là gì?,a.  Hệ quản trị cơ sở dữ liệu phân tán,b.  Cơ sở dữ liệu phân tán,c.  Hệ quản trị cơ sở dữ liệu quan hệ,d.  Hệ thống thông tin quản lý,Đáp án : a
+60,"Câu 60: Trong hệ quản trị cơ sở dữ liệu phân tán, từ nào có nghĩa là thành phần truyền dữ liệu?",a.  Data Communication,b.  Data Transport,c.  Distributed Database,d.  Data Dictionary,Đáp án : a
+61,Câu 61:  Hình trên để làm gì?,a.  Tạo kết nối cơ sở dữ liệu với máy khác,b.  Tạo cơ sở dữ liệu,c.  Tạo liên kết các bảng dữ liệu,d.  Tạo siêu liên kết,Đáp án : a
+62,Câu 62:  Hình trên Name là gì?,a.  Tên liên kết với cơ sở dữ liệu máy khác,b.  Tên bảng biểu,c.  Tên của cơ sở dữ liệu,d.  Tạo siêu liên kết,Đáp án: a
+63,Câu 63:  Hình trên Service Name là gì?,a.  Địa chỉ IP của máy trong mạng cần kết nối dữ liệu,b.  Địa chỉ IP của máy hiện tại,c.  Tên cơ sở dữ liệu của máy hiện tại,d.  Tên cơ sở dữ liệu của máy cần kết nối,Đáp án: a
+64,Câu 64:  Hình trên Service Name gõ như thế nào mới đúng?,a.  192.168.1.1,b.  www.oracle.com,c.  info@oracle.com,d.  admin,Đáp án: a
+65,Câu 65:  Hình trên User Name sẽ gõ vào là gì?,a.  Tên của cơ sở dữ liệu cần tạo liên kết đến,b.  Tên của cơ sở dữ liệu máy hiện tại,c.  Tên của máy hiện tại,d.  Tên của hệ thống,Đáp án: a
+66,Câu 66:  Hình trên Password sẽ gõ vào là gì?,a.  Mật khẩu của cơ sở dữ liệu cần tạo liên kết đến,b.  Mật khẩu của cơ sở dữ liệu máy hiện tại,c.  Mật khẩu của máy hiện tại,d.  Mật khẩu của hệ thống,Đáp án: a
+67,Câu 67:  Hình trên schema là gì,a.  Tên của cơ sở dữ liệu máy hiện tại,b.  Tên của cơ sở dữ liệu máy cần tạo liên kết đến,c.  Tên của bảng biểu,d.  Tên của truy vấn cần liên kết,Đáp án: a
+68,Câu 68:  Hình trên Demo là gì?,a.  Tên của cơ sở dữ liệu máy hiện tại đã tạo,b.  Tên của cơ sở dữ liệu máy cần tạo liên kết đến đã tạo,c.  Tên của bảng biểu đã tạo,d.  Tên của truy vấn cần liên kết đã tạo,Đáp án: a
+69,"Câu 69:  Trong Oracle SQL Developer, sau khi tạo tên của cở sở dữ liệu kết nối với máy khác muốn kiểm tra cơ sở dữ liệu có kết nối thành công không bạn chọn?",a.  Test Database Link,b.  Test Network,c.  Test Connection,d.  Check,Đáp án: a
+70,"Câu 70:  Trong Oracle SQL Developer, muốn tạo tên một kết nối với cơ sở dữ liệu của máy khác bạn chọn?",a.  New Database Link,b.  New Link,c.  New Connection,d.  New oracle,Đáp án: a
+71,"Câu 71:  Trong Oracle SQL Developer, khi chọn New Database Link làm công việc gì?",a.  Tạo tên một kết nối với cơ sở dữ liệu của máy khác,b.  Tạo cơ dữ dữ liệu để liên kết với Queries,c.  Tạo cơ dữ dữ liệu để liên kết với Form,d.  Tạo cơ dữ dữ liệu để liên kết với Report,Đáp án: a
+72,"Câu 72: Trong Oracle SQL Developer, muốn xóa tên của liên kết với cơ sở dữ liệu máy khác bạn chọn",a.  Drop,b.  Delete,c.  Cut,d.  Backspace,Đáp án: a
+73,"Câu 73:  Trong Oracle SQL Developer, muốn cấp quyền truy cập cho máy liên kết với cơ sở dữ liệu máy khác bạn thực hiện các bước nào?","a.  Vào System, Other Users, kich chuột phải tên CSDL chọn Edit User","b.  Vào Demo, Other Users, kich chuột phải tên CSDL chọn Edit User","c.  Vào System, Other Users, kich chuột phải tên CSDL chọn Drop User","d.  Vào Demo, Other Users, kich chuột phải tên CSDL chọn Drop User",Đáp án: a
+74,"Câu 74:  Trong Oracle SQL Developer, vào System, Other Users, kich chuột phải tên CSDL chọn Edit User",a.  Cấp quyền truy cập cho máy liên kết với cơ sở dữ liệu máy khác,b.  Sửa thông tin của người sử dụng,c.  Xóa thông tin của người sử dụng,d.  Tìm kiếm thông tin của người sử dụng,Đáp án: a
+75,"Câu 75: Trong Oracle SQL Developer, cấp quyền truy cập cho CSDL sau khivào System, Other Users, kich chuột phải tờn CSDL chọn Edit User bạn chọn",a.  Roles,b.  Edit,c.  Open,d.  Drop,Đáp án: a
+76,"Câu 76:  Trong Oracle SQL Developer, cấp quyền truy cập cho CSDL sau khivào System, Other Users, kích chuột phải tên CSDL chọn Edit User bạn chọn",a.  System Privileges,b.  Edit,c.  Open,d.  Drop,Đáp án: a
+77,"Câu 77:  Trong Oracle SQL Developer, cấp quyền truy cập cho CSDL sau khi vào System, Other Users, kích chuột phải tên CSDL chọn Edit User, ở bước cuối bạn chọn",a.  Grant All,b. Revoke All,c.  Admin None,d.  Default None,Đáp án: a
+78,"Câu 78:  Trong Oracle SQL Developer, cấp quyền truy cập cho CSDL sau khi vào System, Other Users, kích chuột phải tên CSDL chọn Edit User, ở bước cuối bạn chọn",a.   Admin All,b. Revoke All,c.  Admin None,d.  Default None,Đáp án: a
+79,"Câu 79:  Trong Oracle SQL Developer, khi chọn Grant All để làm gì?",a.  Cấp quyền liên kết cơ sở dữ liệu máy khác,b. Cấp mật khẩu,c.  Cấp tên đăng nhập,d.  Cấp quyền truy cập vào bảng biểu,Đáp án: a
+80,"Câu 80:   Trong Oracle SQL Developer, muốn chạy các câu lệnh SQL, bạn bôi đen câu lệnh và chọn?",a.  Run Statement,b. F9,c.  Ctrl + F9,d.  Run time,Đáp án: a
+81,"Câu 81:  Trong Oracle SQL Developer, muốn chạy các câu lệnh SQL, bạn bôi đen câu lệnh và chọn?",a.   Ctrl + Enter,b. F9,c.  Ctrl + F9,d.  Run time,Đáp án: a
+82,"Câu 82:  Trong Oracle SQL Developer, lệnh Ctrl + Enter thực hiện công việc gì?",a.  Thực hiện các câu lệnh SQL,b.  Xuống dòng đoạn mã lệnh đang soạn thảo,c.  Ghi lại dữ liệu,d.  Sang trang mới,Đáp án: a
+83,"Câu 83:  Trong Oracle SQL Developer, kích vào nút Run Statement thực hiện công việc gì?",a.  Thực hiện các câu lệnh SQL,b. Xuống dòng đoạn mã lệnh đang soạn thảo,c.  Ghi lại dữ liệu,d.  Sang trang mới,Đáp án: a
+84,"Câu 84:  Trong Oracle SQL Developer, kích vào nút commit thực hiện công việc gì?",a.  Cập nhật dữ liệu vào CSDL các máy khác có thế truy xuất được,b. Xuống dòng đoạn mã lệnh đang soạn thảo,c.  Chèn dữ liệu,d.  Sang trang mới,Đáp án: a
+85,"Câu 85:  Trong Oracle SQL Developer, kích vào nút F11 thực hiện công việc gì?",a.  Cập nhật dữ liệu vào CSDL các máy khác có thế truy xuất được,b. Xuống dòng đoạn mã lệnh đang soạn thảo,c.  Chèn dữ liệu,d. Sang trang mới,Đáp án: a
+86,"Câu 86:   Trong Oracle SQL Developer, sau khi chèn dữ liệu bằng lệnh insert, muốn cập nhật vào cơ sở dữ liệu bạn chọn?",a.  Commit,b. Save,c.  Update,d. Add,Đáp án: a
+87,"Câu 87:  Trong Oracle SQL Developer, sau khi chèn dữ liệu bằng lệnh insert, muốn cập nhật vào cơ sở dữ liệu bạn chọn?",a.  F11,b. F12,c.  F1,d. F4,Đáp án: a
+88,"Câu 88:  Trong Oracle SQL Developer, cập nhật dữ liệu bạn chọn?","a.  Tên bảng, Data, Insert Row","b. Tên bảng, Data, Insert Column","c.  Tên bảng, Data, Update Row","d. Tên bảng, Data, Insert Data",Đáp án: a
+89,"Câu 89:  Trong Oracle SQL Developer, chọn Tên bảng, Data, Insert Row thực hiện công việc gì?",a.  Nhập vào dữ liệu,b. Chèn cột,c.  Sửa dữ liệu đã có,d. Chèn bảng,Đáp án: a
+90,"Câu 90:  Trong Oracle SQL Developer, phát biểu nào đúng",a.  Dữ liệu lưu trữ trên tất cả máy,b. Tất cả dữ liệu chỉ được lưu trên một máy,c.  Giữa 2 máy bất kỳ không thể tìm thấy dữ liệu của nhau,d.  Không thể chèn dữ liệu từ máy này sang máy khác,
+91,"Câu 91:  Trong Oracle SQL Developer, phát biểu nào sai",a.  Không thể chèn dữ liệu từ máy này sang máy khác,b. Từ một máy có thể tìm được dữ liệu của các máy,c.  Giữa 2 máy bất kỳ có thể tìm thấy dữ liệu của nhau,d.  Dữ liệu lưu trữ trên tất cả máy,Đáp án: a
+92,"Câu 92:  Trong Oracle SQL Developer, lệnh Select * from SV@connection thực hiện công việc gì?",a.  Hiện thị dữ liệu bảng SV của máy khác,b. Hiển thị dữ liệu bảng SV của máy hiện tại,c.  Chèn dữ liệu vào bảng SV của máy khác,d.  Chèn dữ liệu vào bảng SV của máy hiện tại,Đáp án: a
+93,"Câu 93:  Trong Oracle SQL Developer, lệnh Select * from SV thực hiện công việc gì?",a.   Hiện thị dữ liệu bảng SV của máy hiện tại,b. Hiển thị dữ liệu bảng SV của máy khác,c.  Chèn dữ liệu vào bảng SV của máy khác,d. Chèn dữ liệu vào bảng SV của máy hiện tại,Đáp án: a
+94,"Câu 94:  Trong Oracle SQL Developer, lệnh Select * from SV@..., sau dấu @ điền vào nội dung gì? ?",a.  Tên của liên kết với cơ sở dữ liệu máy khác,b. Tên của máy khác,c.  Tên của cơ sở dữ liệu máy khác,d. Tên form,Đáp án: a
+95,"Câu 95:  Trong Oracle SQL Developer, lệnh nào đúng ?",a.  Select * from SV@db,b. Select * from SV@192.168.1.1,c.  Select * from SV@vn.plus,d. Select * from @SV@vn.plus,Đáp án: a
+96,"Câu 96:  Trong Oracle SQL Developer, lệnh nào sai ?",a.  Select * from SV@db@,b. Select * from SV@datalink,c.  Select MaSV from SV@db,d.  Select Hoten from SV@db,Đáp án: a
+97,"Câu 97:  Trong Oracle SQL Developer, lệnh Insert into USER@....(MaSV,Hoten) values(‘sv1’,’Tran Uoc’) dấu .... điền vào nội dung gì?",a.  Tên của kết nối CSDL với máy khác,b. Tên của máy cần chèn dữ liệu,c.  Tên của bảng cần chèn,d. Tên của CSDL máy cần cập nhật dữ liệu,Đáp án: a
+98,"Câu 98:   Trong Oracle SQL Developer, lệnh Insert into USER@db(MaSV,Hoten) values(‘sv1’,’Tran Uoc’) thực hiện công việc gì?",a.  Chèn dữ liệu vào bảng USER với tên kết nối với CSDL máy khác là db,b. Chèn dữ liệu vào bảng USER với tên máy khác là db,c.  Chèn dữ liệu vào bảng USER với tên Form là db,d. Chèn dữ liệu vào bảng USER với tên truy vấn là db,Đáp án: a
+99,"Câu 99:  Trong Oracle SQL Developer, lệnh Insert into USER@...., từ máy này muốn nhập dữ liệu vào máy khác dấu .... sẽ là?","a.  datalink(MaSV,Hoten) values(‘sv2’,’ Uoc’)","b. 192.168.1.1(MaSV,Hoten) values(‘sv2’,’ Uoc’)","c.   (MaSV,Hoten) values(‘sv2’,’ Uoc’)","d.  values(‘sv2’,’ Uoc’)",Đáp án: a
+100,Câu 100:  Lệnh nào thể hiện cơ sở dữ liệu phân tán ?,"a.  Insert into USER@db(MaSV,Hoten) values(‘sv1’,’Tran Uoc’)","b. Insert into USER(MaSV,Hoten) values(‘sv1’,’Tran Uoc’)","c.  Insert into USER values(‘sv1’,’Tran Uoc’)","d.  Insert into USER@db(MaSV,Hoten) @values(‘sv1’,’Tran Uoc’)",Đáp án: a
+101,Câu 101:  Lệnh nào đúng ?,"a.  Insert into NV@cnn(MaSV,Hoten) values(‘nv1’,’Tran Uoc’)","b. Insert into @USER(MaSV,Hoten) values(‘sv1’,’Tran Uoc’)","c.  Insert into USER @values(‘sv1’,’Tran Uoc’)","d. Insert into USER@db(MaSV,Hoten) @values(‘sv1’,’Tran Uoc’)",Đáp án: a
+102,Câu 102:  Lệnh nào sai ?,"a.  Insert into NV(MaSV,Hoten) @values(‘nv1’,’Tran Uoc’)","b. Insert into USER(MaSV,Hoten) values(‘sv1’,’Tran Uoc’)","c.  Insert into USER@cnn(MaSV,Hoten) values(‘sv1’,’Uoc’)","d. Insert into USER@db(MaSV,Hoten) values(‘sv3’,’Hoa’)",Đáp án: a
+103,"Câu 103:  Trong Oracle SQL Developer, lệnh Update Dangnhap@cnn set ten = ‘Tuan’ where ten=’Phuong’ thực hiện công việc gì?",a.  Sửa dữ liệu vào bảng Dangnhap với tên kết nối với CSDL máy khác là cnn,b. Sửa dữ liệu vào bảng Dangnhap với tên may cnn,c.  Sửa dữ liệu vào bảng Dangnhap với tên CSDL là cnn,d. Chèn dữ liệu vào bảng Dangnhap với tên truy vấn là cnn,Đáp án: a
+104,"Câu 104:  Trong Oracle SQL Developer, lệnh Update Dangnhap@cnn set ten = ‘Tuan’ where ten=’Phuong’ kết quả là gì?",a.  Tên Phuong sẽ thay bằng tên Tuan theo tên kết nối dữ liệu cnn,b. Tên Tuan sẽ thay bằng tên Phuong theo tên kết nối dữ liệu cnn,c.  Tên Phuong sẽ thay bằng tên Tuan theo tên CSDL cnn,d.  Tên Phuong sẽ thay bằng tên Tuan theo tên máy cnn,Đáp án: a
+105,"Câu 105:  Trong Oracle SQL Developer, lệnh nào sẽ thay thế tên ‘Lan’ bằng Toan tại máy khác trong mạng LAN?",a.  Update NV@cnn set ten = ‘Toan’ where ten=’Lan’,b. Update NV@cnn set ten = ‘Lan’ where ten=’Toan’,c.  Update NV set ten = ‘Toan’ where ten=’Lan’,d. Update NV set ten = ‘Lan’ where ten=’Toan’,Đáp án: a
+106,"Câu 106:  Trong Oracle SQL Developer, lệnh nào từ máy này xóa dữ liệu tới máy khác trong mạng LAN",a.  Delete From GV@cnn where ten= ‘Tran Uoc’,b. Delete From GV where ten= ‘Tran Uoc’,c.  Delete From GVcnn@ where ten= ‘Tran Uoc’,d. Delete @From GV where ten= ‘Tran Uoc’,Đáp án: a
+107,"Câu 107:  Trong Oracle SQL Developer, lệnh nào xóa khách hàng tên ‘Hùng’ tại máy khác với máy bạn đang thực hiện",a.  Delete From Khachhang@cnn where ten= ‘Hung’,b. Delete From Khachhang where ten= ‘Hung’,c.  Delete From Khachhangcnn@ where ten= ‘Hung’,d. Delete From Khachhang where @ten= ‘Hung’,Đáp án: a
+108,"Câu 108:  Trong Oracle SQL Developer, lệnh nào xóa khách hàng tên ‘Thuy’ tại máy bạn đang thực hiện",a.  Delete From Khachhang where ten= ‘Thuy’,b. Delete From Khachhang@cnn where ten= ‘Thuy’,c.  Delete From Khachhangcnn@ where ten= ‘Thuy’,d. Delete From Khachhang where @ten= ‘Thuy’,Đáp án: a
+109,"Câu 109:  Trong Oracle SQL Developer, lệnh nào đúng",a.  Delete From Khachhang where ten= ‘Thuy’,b. Delete From Khachhang@ where ten= ‘Thuy’,c.  Update From where ten= ‘,d. Delete From Khachhang where ten=@ ‘Thuy’,Đáp án: a
+110,"Câu 110:  Trong Oracle SQL Developer, lệnh nào sai",a.  Delete From @Khachhang where ten= ‘Thuy’,b. Delete From Khachhang@cnn where ten= ‘Thuy’,c.  Update NV@cnn set ten = ‘Toan’ where ten=’Lan’,d. Update NV set ten = ‘Toan’ where ten=’Lan’,Đáp án: a
+111,"Câu 111: Để đóng Form hiện tại, bạn sử dụng câu lệnh…",a. this.Close(),b. me.Close(),c. this.Hide(),d. me.Hide(),Đáp án: a
+112,Câu 112: Thuộc tính AcceptButton của Form dùng để ?,a. Tạo một nút nhấn trên Form,b. Tạo ra nút nhấn có nhãn là Accept,c. Nút được click khi nhấn phím Enter,d. Không có đáp án đúng,Đáp án: c
+113,"Câu 113: Để không cho phép người dùng sửa dữ liệu trong Textbox, chúng ta dùng thuộc tính ?",a.Text,b.ReadOnly,c.Enable,d.Locked,Đáp án: b
+114,"Câu 114: Để khai báo biến trong C#,bạn sử dụng câu lệnh ?",a. dim hoten,b. dim hoten as string,c. string hoten ;,d. hoten string ;,Đáp án: c
+115,Câu 115: Thuộc tính Visible dùng để ?,a. Hiển thị hình ảnh,b.Cho phép nhập văn bản,c.Không cho phép di chuyển điều khiển,d.Ẩn hoặc hiện điều khiển,Đáp án: d
+116,"Câu 116: Để cho phép kích thước ảnh phù hợp với PictureBox,bạn dùng thuộc tính ?",a. Image,b.SizeMode,c.Size,d.MaximumSize,Đáp án: b
+117,"Câu 117: Đoạn chương trình sau cho kết quả là bao nhiêu ?
+int tich, i;
+tich = 0;
+for (i = 1; i <= 5; i++)
+{
+tich = tich * i;
+}
+Console.WriteLine(tich);",a.1,b.120,c. 0,d. 5,Đáp án: c
+118,"Câu 118: Đoạn chương trình sau thể hiện điều gì ?
+OracleConnection ket noi;
+Ket noi = new OracleConnection(Data Source=tên máy hoặc địa chỉ       IP;User ID=tênCSDL;Password=mật khẩu;Unicode=True);
+Ket noi.Open();",a.Khai báo và khởi tạo đối tượng OracleConnection,b.Khai báo đối tượng OracleConnection,c.Khởi tạo đối tượng OracleConnection,d.Kết nối giữa các máy với nhau,Đáp án: a
+119,Câu 119: Mọi thứ trong .NET đều là đối tượng được thừa kế từ ?,a. Lớp gốc System.Object.,b. Class.Object,c. Data.Oracle,d. Không có đáp án,Đáp án: a
+120,"Câu 120: Đoạn lệnh sau có ý nghĩa gì ?
+using System.Data.OracleClient;",a.Khai báo tham chiếu đến thư viện,b.Tham chiếu đến CSDL Oracle,c.Tham chiếu đến hệ thống CSDL,d.Tất cả đều đúng,Đáp án: a
+121,"Câu 121: Khi khai báo đối tượng DataSet, DataAdapter được dùng để :",a. Hiển thị dữ liệu trên DataGridView,b.Tìm kiếm dữ liệu trên CSDL Oracle,c.Cả 2 đều đúng,d.Không có đáp án,Đáp án: b
+122,"Câu 122: Đoạn chương trình sau sai ở đâu ?
+class Program
+{
+static void (string[] args)
+{
+1. nguoi obj = new nguoi();
+2. obj.getName=nguyen thi lan;
+3. Console.WriteLine(obj.getName);
+}
+}
+class nguoi
+{
+private string hoten;
+public string getName
+{get { return hoten; }}
+}",a.3,b.1,c.2,d.Không có đáp án đúng,Đáp án: b
+123,Câu 123: Câu lệnh nào dùng để khai báo thủ tục khởi tạo cho class nguoi,a. public nguoi(){},b. public string nguoi(){},c. public nguoi{},d. Không có đáp án đúng,Đáp án: a
+124,Câu 124: Cách khai báo và khởi tạo đối tượng trong C#?,a.tên_lớp   tên_đối_tượng =  tên_lớp(),b.tên_lớp   tên_đối_tượng(),c.tên_đối_tượng   tên_lớp(),d.tên_lớp   tên_đối_tượng = new tên_lớp(),Đáp án: d
+125,Câu 125: Trong C# có tối đa là bao nhiêu phương thức Main(),a.1,b.2,c.3,d.Không giới hạn,Đáp án: a
+126,"Câu 126: Lớp nhanvien kế thừa được những gì ở lớp nguoi
+class nhanvien : nguoi
+{ }
+class nguoi
+{
+private string hoten;
+public string getName
+{get { return hoten; }}
+public void hienthi(){ }
+}","a.hoten, getName, hienthi","b.getName, hienthi","c.hoten, hienthi","d.hoten, getName",Đáp án: b
+127,"Câu 127: Chương trình sau sẽ gọi thủ tục khởi tạo nào ?
+class Program
+{
+static void (string[] args)
+{
+nguoi obj = new nhanvien();
+}
+}
+class nguoi
+{
+private string hoten;
+1. public nguoi() { }
+2. public nguoi(string name, int age) { }
+3. public nguoi(string name) { }
+}",a.2,b.1,c.3,d.Chương trình bị lỗi,Đáp án: b
+128,"Câu 128: Chương trình sau sẽ gọi thủ tục khởi tạo nào ?
+class Program
+{
+static void (string[] args)
+{
+nguoi obj = new nhanvien(23);
+}
+}
+class nguoi
+{
+private string hoten;
+1. public nguoi() { }
+2. public nguoi(string name, int age) { }
+3. public nguoi(string name) { }
+}",a.3,b.1,c.2,d.Chương trình bị lỗi,Đáp án: d
+129,"Câu 129: Chương trình sau sẽ gọi thủ tục khởi tạo nào ?
+class Program
+{
+static void (string[] args)
+{
+nguoi obj = new nhanvien(nguyen thi lan);
+}
+}
+class nguoi
+{
+private string hoten;
+1. public nguoi() { }
+2. public nguoi(string name, int age) { }
+3. public nguoi(string name) { }
+}",a.3,b.1,c.2,d.Chương trình bị lỗi,Đáp án: a
+130,"Câu 130: Chương trình sau sẽ gọi thủ tục khởi tạo nào ?
+class Program
+{
+static void (string[] args)
+{
+nguoi obj = new nhanvien(18,nguyen thi lan);
+}
+}
+class nguoi
+{
+private string hoten;
+1. public nguoi() { }
+2. public nguoi(string name, int age) { }
+3. public nguoi(string name) { }
+}",a.2,b.1,c.3,d.Chương trình bị lỗi,Đáp án: d
+131,"Câu 131: Cho biết kết quả của đoạn chương trình sau :
+string sql=select * from SV@ketnoi_may10 where hoten like ‘%nguyen%’;
+OracleDataAdapter  adapter;
+adapter=new OracleDataAdapter(sql,ket noi);
+adapter.Fill(ds);
+DataGridView1.datasource=ds.tables[0];",a. Tìm kiếm người có họ tên bắt đầu là nguyen,b.Tìm kiếm người ở trong CSDL máy 10 có họ tên là nguyen,c.Thêm nguyen vào CSDL máy 10,d.Không có đáp án,Đáp án : b
+132,Câu 132: Câu lệnh nào sau đây không bị lỗi khi biên dịch,a.int i=2; if (i==1) Console.WriteLine(i);,b.int i=2; if (i=1) Console.WriteLine(i);,c.int i=2; if (i) Console.WriteLine(i);,d.if (2) Console.WriteLine(i);,Đáp án: a
+133,"Câu 133: Trong C#, để khai báo một phương thức của lớp là phương thức tĩnh ta dùng từ khoá",a.public,b.void,c.static,d.intenal,Đáp án: c
+134,Câu 134: Từ khoá nào sau đây được dùng khi lớp con muốn cài đặt lại phương thức được thừa kế từ lớp cha,a.new,b.override,c.virtual,d.abstract,Đáp án: b
+135,"Câu 135: Trong C#, cấu trúc nào sau đây được dùng để bắt và xử lý các ngoại lệ",a.if/else,b.Catch/Finaly,c.do/loop,d.Try/Catch,Đáp án: d
+136,"Câu 136: Trong C#, ….. không được cài đặt phần thân của phương thức.",a.Phương thức,b.Interface,c.Class,d.Struct,Đáp án: b
+137,"Câu 137: Trong C#, ….. không cài đặt phần thân của phương thức",a.Phương thức,b.Struct,c.Class,d.Phương thức trừu tượng. (được khai báo với từ khoá abstract),Đáp án: d
+138,Câu 138: Ngôn ngữ C# không hỗ trợ,a.Đơn thừa kế,b.Implement nhiều Interface,c.Đa thừa kế,d.Implement một Interface,Đáp án: c
+139,"Câu 139: Lớp Test được cài đặt như bên dưới, câu lệnh nào sau đây hợp lệ:
+class Test
+{
+public static int mark;
+public static void Print() { }
+}",a.Test t = new Test(); t.mark = 9;,b.Test t = new Test(); t.Print();,c.Test.mark = 9;,d.Test.Print(9);,Đáp án: c
+140,"Câu 140: Lớp Test được cài đặt như bên dưới, các câu lệnh sau được viết ngoài lớp Test, câu lệnh nào sau đây hợp lệ:
+class Test
+{
+public static int mark;
+public void Print() { }
+}",a.Test t = new Test(); t.mark = 9;,b.Test t = new Test(); t.Print();,c.Test.mark = 9;,d.Test.Print();,Đáp án b:
+141,Câu 141: Một chương trình C# có thể chạy trên bất cứ máy nào ?,a.Đúng,"b.Sai, Một chương trình C# chỉ chạy trên máy có hỗ trợ Common Languege Runtime","c.Sai, Một chương trình C# không chạy được trên HĐH Linux",d.Sai,Đáp án: b
+142,Câu 142: Lựa chọn phát biểu đúng. Trong C#:,a. Một lớp có thể có nhiều lớp cha,b.Có thể tạo một thể hiện của một Interface,c.Lớp chỉ có thể được kế thừa tối đa một lớp cha.,d.Có thể tạo thể hiện của một lớp ảo (abstract),Đáp án: c
+143,Câu 143: Lựa chọn phát biểu sai. Trong C#,a.Phạm vi truy xuất các phương thức của Interface mặc định là Public,b.Có thể phạm vi truy xuất cho các phương thức của Interface bằng từ khóa Private,c.Một Interface chỉ được khai báo tên phương thức chứ không được cài đặt phần thân của phương thức.,d.Một lớp khi implement tường minh 1 phương thức của interface thì phạm vi truy xuất của phương thức bắt buộc phải la public,Đáp án: b
+144,"Câu 144: Để khai báo một mảng 10 phần tử kiểu int, khai báo nào sau đây đùng",a.int[10] arr;,b.int arr[10];,c.int arr[] = new int [10];,d.int[] arr = new int[10];,Đáp án: d
+145,"Câu 145: Từ khóa virtual, override, new có thể được áp dụng cho",a.Method,b.Property có tham số,c.Property không tham số,d.Cả 3 đều đúng.,Đáp án : d
+146,"Câu 146: Cho biết chức năng của đoạn chương trình sau ?
+private DataTable datatable;
+private OracleCommand cmd;
+private OracleDataAdapter oradapter;",a.Khai báo các hằng,b. báo tham số,c.Khai báo các biến,d.Khai báo bảng CSDL,Đáp án : c
+147,Câu 147: Cho biết ý nghĩa của đường dẫn sau :       C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.OracleClient.dll,a.Add Reference Oracle DLL,b.using System.Data.OracleClient,c.Chuỗi kết nối,d.Tất cả đều đúng,Đáp án: a
+148,"Câu 148: Trong lập trình CSDL phân tán với .NET, đâu là đoạn lệnh tham chiếu đến thư viện?",a.using Oracle.DataAccess.Client;,b.using System.Data.Oracle;,c.using System.Data.Adapter;,d.Không có đáp án đúng,Đáp án: a
+149,Câu 149: Các chương trình được viết trên nền.NET Framework được triển khai trong môi trường phần mềm có tên là ?,a.Common Language Runtime,b.Common Language Run,c.Commen Language Runtime,d.Commen Language Run,Đáp án: a
+150,Câu 150: Trong .NET để các đối tượng có thể tương hợp với các đối tượng khác thì trình biên dịch tuân theo ?,a.Common Language Specification,b.Common Type System,c.Common Language Runtime,d.Không có đáp án đúng,Đáp án: a
+151,Câu 151: Nền tảng của .NET bao gồm bao nhiêu nhóm chính ?,a.2,b.3,c.4,d.5,Đáp án: c
+152,"Câu 152: Trong .NET, chọn phát biểu đúng ?",a.Bộ thư viện Framework Class Library – FCL có thể được dùng bởi bất kỳ ngôn ngữ nào tuân theo CLS.,b. Bộ thư viện Framework Class Library – FCL có thể được dùng bởi bất kỳ ngôn ngữ nào.,c. Bộ thư viện Framework Class Library – FCL không được dùng bởi bất kỳ ngôn ngữ nào tuân theo CLS,d. Bộ thư viện Framework Class Library – FCL không được dùng bởi bất kỳ ngôn ngữ nào.,Đáp án: a
+153,"Câu 153: Sau biên dịch, mã nguồn C# được chuyển thành ?",a.Tập tin IL lưu trên đĩa.,b.Tập tin IIL lưu trên đĩa.,c.Tập tin thực thi.,d.Không có đáp án đúng.,Đáp án: a
+154,"Câu 154: Đoạn chương trình sau dùng để làm gì ?
+string sql=select * from SV@ketnoi_may10 where hoten like ‘%thanh%’;
+OracleDataAdapter  adapter;
+adapter=new OracleDataAdapter(sql,ket noi);
+adapter.Fill(ds);
+DataGridView1.datasource=ds.tables[0];",a.Khai báo đối tượng OracleCommand,b.Khai báo đối tượng DataSet,c.Khai báo đối tượng DataAdapter,d.Tất cả đều đúng,Đáp án : c
+155,"Câu 155: Kết quả đoạn chương trình sau là gì ?
+int so;
+so = 7;
+if (so > 9)
+{ Console.Write(hello); }
+else if (so > 5) { Console.Write(good day!); }
+else{Console.Write(good luck!);}",a.hello,b.good luck !,c.good day !,d.Không có đáp án đúng,Đáp án: c
+156,Câu 156: Khi thực hiện công việc nào thì khai báo đối tượng OracleCommand,a.Xóa dữ liệu cho CSDL Oracle,b.Thêm dữ liệu cho CSDL Oracle,c.Cả 2 đáp án trên đều đúng,d.Không có đáp án đúng,Đáp án: c
+157,Câu 157: Muốn tìm kiếm dữ liệu trên CSDL Oracle thì phải khai báo đối tượng,"a.OracleCommand, DataSet",b.DataAdapter,c.DataSet,"d.DataSet, DataAdapter",Đáp án: d
+158,Câu 158: Khi nào thì khai báo đối tượng DataSet ?,a. Hiển thị dữ liệu trên DataGridView,b. Hiển thị dữ liệu cho CSDL,c. Thêm dữ liệu cho bảng tính,d. Đáp án khác,Đáp án: a
+159,"Câu 159: Giả sử ta đã kết nối đến CSDL  ở máy số 5 trong mạng LAN và tên kết nối là ketnoi_may5. Đoạn chương trình sau thực hiện công việc gì?
+String duongdan=data source=thinh-lanPC; user id= quanlysv; password= abc123;;
+String caulenh=update sinhvien@ketnoi_may5 set hoten=’nguyen ngoc lan’ where masv=’05’;
+OracleConnection ketnoi=new OracleConnection(duongdan);
+OracleCommand cmd=new OracleCommand(caulenh,ketnoi);
+cmd. ExecuteReader ();",a.Cập nhật dữ liệu vào bảng sinhvien của CSDL ở máy số 5,b.Chương trình bị lỗi ở câu lệnh cmd.ExecuteReader(),c.Cập nhật dữ liệu vào bảng sinhvien của CSDL hiện thời ở máy người dùng,d.Tất cả đều sai,Đáp án: b
+160,"Câu 160: Giả sử ta đã kết nối đến CSDL  ở máy số 5 trong mạng LAN và tên kết nối là ketnoi_may5. Đoạn chương trình sau thực hiện công việc gì?
+String duongdan=data source=thinh-lanPC; user id= quanlysv; password= abc123;;
+String caulenh=update sinhvien@ketnoi_may5 set hoten=’nguyen ngoc lan’ where masv=’05’;
+OracleConnection ketnoi=new OracleConnection(duongdan);
+OracleCommand cmd=new OracleCommand(caulenh,ketnoi);
+cmd. ExecuteNonQuery ();",a.Cập nhật dữ liệu vào bảng sinhvien của CSDL ở máy số 5,b.Chương trình bị lỗi ở câu lệnh cmd. ExecuteNonQuery (),c.Cập nhật dữ liệu vào bảng sinhvien của CSDL hiện thời ở máy người dùng,d.Tất cả đều sai,Đáp án: a
+161,"Câu 161: Để xóa dữ liệu ở bảng sinhvien với masv=05, ở máy số 5 (tên kết nối là ketnoi_may5) bạn sử dụng câu lệnh khai báo nào?",a.delete from sinhvien where masv=’05’,b.delete from sinhvien@ketnoi_may5,c.delete from sinhvien@ketnoi_may5 where masv=’05’,d.Tất cả đều sai,Đáp án: c
+162,Câu 162: Để mở kết nối đến CSDL Oracle bạn sử dụng phương thức ?,a.ketnoi.Open() ;,b.ketnoi.OpenConnection() ;,c.ketnoi.OpenDatabase() ;,d.Không có đáp án nào đúng,Đáp án: a
+163,Câu 163 : Để lấy ra vị trí dòng hiện thời trong DataGridView bạn sử dụng câu lệnh nào ?,a. DataGridView1.CurrentCell.Index ;,b. DataGridView1.CurrentRow.Count ;,c. DataGridView1.CurrentRow.Index ;,d. Không có đáp án đúng,Đáp án : c
+164,"Câu 164 : Để lấy ra giá trị của ô đang chọn hiện thời( dòng hiện thời đang là dòng đầu tiên), trong dataGridView bạn chọn ?",a. dataGridView1.CurrentRow.Cells[0].Text,b. dataGridView1.CurrentCell.Row[0].Value,c. dataGridView1.CurrentRow.Row[0].Value,d. dataGridView1.CurrentRow.Cells[0].Value ;,Đáp án: d
+165,"Câu 165: Muốn lấy giá trị của cột thứ 2, ở dòng thứ 3 trong dataGridView bạn chọn ?",a. dataGridView1.CurrentRow[2].Cells[1].Value ;,b. dataGridView1.Rows[2].Cells[1].Value ;,c. dataGridView1.Cells[2].Rows[1].Value ;,d. Không có đáp án đúng,Đáp án: b
+166,Câu 166: Câu lệnh cmd.ExecuteNonQuery dùng để thực hiện chức năng gì?,"a. Insert, Update, Select","b. Insert, Delete, Select","c. Insert, Update, Delete","d. Insert, Update, Delete, Select",Đáp án: c
+167,Câu 167: Trước khi dùng C# kết nối đến cơ sở dữ liệu phân tán ở máy khác thì bạn phải?,a. Không phải làm gì cả,b. Tạo Database ở máy khác,c. Tạo 1 kết nối đến cơ sở dữ liệu ở máy khác bằng công cụ sqldeveloper,d. Tất cả đều sai,Đáp án: c
+168,"Câu 168: Trong lập trình CSDL phân tán, để thao tác được với CSDL Oracle thì bạn phải….?",a. using System.Data;,b. using System.Data.OracleClient;,c. using System.Data.Oledb;,d. using System.Data.SqlClient;,Đáp án: b
+169,"Câu 169: Trong lập trình CSDL phân tán, để thao tác được với CSDL Oracle thì bạn phải tham chiếu đến thư viện CSDL Oracle bằng cách…",a..Project/Add Reference/COM /System. Data.OracleClient,b.Project/Add Web Reference/.Net/System. Data.OracleClient,c.Project/Add Reference/.Net/System. Data.OracleClient,d.Không cần phải tham chiếu,Đáp án: c
+170,Câu 170: Để lập trình CSDL phân tán bạn cần tối thiểu những đối tượng nào sau đây?,"a. OracleConnection, OracleDataAdapter","b. OracleDataAdapter, DataTable","c. OracleDataReader, OracleDataAdapter, DataTable","d. OracleConnection, OracleDataAdapter, DataTable",Đáp án: d
+171,"Câu 171: Để tạo đối tượng kết nối đến CSDL Oracle,bạn khai báo?",a. OracleConnection ketnoi=new OracleConnection(duong dan),b. SqlConnection ketnoi=new SqlConnection(duong dan),c. OledbConnection ketnoi=new OledbConnection(duong dan),d. Tất cả đều sai,Đáp án: a
+172,"Câu 172: Cho đoạn lệnh sau:
+OracleConnection ketnoi=new OracleConnection(Data source= ; user id=  ; password= );
+trong Data source bạn phải nhập?",a. Địa chỉ IP của máy cần kết nối,b. Tên máy tính đang làm việc,c. Tên người dùng Database,d. Tất cả đều sai,Đáp án: b
+173,"Câu 173: Cho đoạn lệnh sau:
+OracleConnection ketnoi=new OracleConnection(Data source= ; user id= ; password= );
+trong user id  bạn phải nhập?",a.Địa chỉ IP của máy cần kết nối,b.Tên người dùng Database,c.Tên máy tính đang làm việc,d.Mật khẩu của người dùng Database,Đáp án: b
+174,"Câu 174: Cho đoạn lệnh sau:
+OracleConnection ketnoi=new OracleConnection(Data source= ; user id= ; password= );
+trong password  bạn phải nhập?",a.Mật khẩu của người dùng Database cần kết nối đến,b.Mật khẩu đăng nhập của CSDL Oracle,c.Mật khẩu người dùng Database hiện thời,d.Tất cả đều sai,Đáp án: c
+175,"Câu 175: Để điền dữ liệu vào cho điều khiển dataGridView,bạn khai báo câu lệnh ?",a.dataGridView1.DataMember = nguồn dữ liệu,b.dataGridView1.DataSource = nguồn dữ liệu,c.dataGridView1.RowSource = nguồn dữ liệu,d.Không có đáp án đúng,Đáp án: b
+176,Câu 176: Chúng ta cần những tham số nào cho lớp OracleConnection?,a.server; password; database,b. data source ; user id; integrated security; password,c.server; database; username,"d.data source ; user id, password",Đáp án: d
+177,Câu 177: Để thực hiện các câu lệnh Insert bạn sử dụng phương thức nào trong C#?,a.cmd.ExecuteReader() ;,b.cmd.ExecuteScalar() ;,c.cmd.ExecuteNonQuery() ;,d.cmd.EndExecuteNonQuery() ;,Đáp án: c
+178,Câu 178: Để thực thi câu truy vấn Update bạn sử dụng câu lệnh nào sau đây ?,a.cmd.ExecuteNonQuery(),b.cmd.ExecuteReader(),c.cmd.EndExecuteNonQuery(),d.cmd.ExecuteScalar(),Đáp án: a
+179,Câu 179: Để thực thi câu lệnh truy vấn Delete bạn sử dụng câu lệnh nào sau đây?,a.cmd.ExecuteReader(),b.cmd.ExecuteNonQuery(),c.cmd.ExecuteScalar(),d.cmd.EndExecuteNonQuery(),Đáp án: b
+180,"Câu 180: Giả sử ta đã kết nối đến CSDL  ở máy số 5 trong mạng LAN và tên kết nối là ketnoi_may5. Đoạn chương trình sau thực hiện công việc gì?
+String duongdan=data source=thinh-lanPC; user id= quanlysv; password= abc123;;
+String caulenh=select * from sinhvien@ketnoi_may5;
+OracleConnection ketnoi=new OracleConnection(duongdan);
+OracleDataAdapter da=new  OracleDataAdapter(caulenh, ketnoi);
+DataTable dt=new DataTable();
+da.Fill(dt);",a.Truy vấn tất cả dữ liệu từ bảng sinhvien của CSDL ở máy số 5,b.Câu lệnh sai ở dòng da.Fill(dt);,c.Truy vấn tất cả dữ liệu từ bảng sinhvien của CSDL hiện thời ở máy người dùng,d.Tất cả đều sai,Đáp án: a
+181,"Câu 181: Giả sử ta đã kết nối đến CSDL  ở máy số 5 trong mạng LAN và tên kết nối là ketnoi_may5. Đoạn chương trình sau thực hiện công việc gì?
+String duongdan=data source=thinh-lanPC; user id= quanlysv; password= abc123;;
+String caulenh=insert into sinhvien(masv,hoten,diachi) values(‘05’,’dang huu thinh’,’ha noi’);
+OracleConnection ketnoi=new OracleConnection(duongdan);
+OracleCommand cmd=new OracleCommand(caulenh,ketnoi);
+cmd. ExecuteNonQuery ();",a.Chèn thêm dữ liệu vào bảng sinhvien của CSDL ở máy số 5,b.Chương trình bị lỗi ở dòng khai báo câu lệnh String caulenh,c.Chèn thêm dữ liệu vào bảng sinhvien của CSDL hiện thời ở máy người dùng,d.Tất cả đều sai,Đáp án: a
+182,"Câu 182: Message Passing Interface (MPI) là:
+1 công nghệ lập trình song song
+1 cơ chế truyền thông điệp
+1 giao diện chuyển thông điệp
+1 thư viện phục  vụ cho quá trình giao tiếp
+Tất cả đều đúng",,,,,Đáp án: a
+183,"Câu 183: Tham số send_count trong hàm int MPI_Send(void *data_to_send, int send_count, MPI_Datatype send_type,   int destination_ID, int tag, MPI_Comm comm); dùng để:
+Kích thước mảng data gửi đi
+Đếm số lần gửi dữ liệu
+Đếm số lượng dữ liệu gửi đi
+Đếm số dữ liệu đã gửi
+Đáp  án: a
+Câu 184: Tham số sender_ID trong hàm int MPI_Recv(void *received_data, int receive_count, MPI_Datatype receive_type, int sender_ID, int tag, MPI_Comm comm, MPI_Status *status); dùng để:",a.  Chỉ ra ID của process gửi,b.  Chỉ ra ID của máy gửi,c.  Đánh số thứ tự của process gửi,,Đáp án: a
+184,"Câu186: Kiểu dữ liệu MPI_PACKED ứng với kiểu dữ liệu nào trong C:
+không kiểu nào
+void
+struct
+double",,,,,Đáp án: a
+185,"Câu 187: Để sử dụng MPI chúng ta cần khai báo thư viện nào trong chương trình C:
+mpi.h
+mpich2.h
+mpich2.lib
+mpich2.dll",,,,,Đáp án: a
+186,"Câu 188: Để chạy chương trình MPI chúng ta cần liên kết tới thư viện (.dll) nào của MPI?
+mpich2.dll
+mpich2.lib
+mpich.lib
+mpich2d.dll",,,,,Đáp án: a
+187,"Câu 189: Tham số rank trong hàm int MPI_Comm_rank( MPI_Comm comm, int *rank) dùng để:
+Định danh cho từng tiến trình trong 1 bộ truyền thông
+Xác định số lượng bộ xử lý
+Xếp hạng của từng bộ xử lý
+Định danh cho từng tiến trình trong 1 bộ xử lý",,,,,Đáp án: a
+188,"Câu 190: Tham số size trong hàm int MPI_Comm_size( MPI_Comm comm, int *size) dùng để:
+Xác định số lượng tiến trình trong 1 bộ truyền thông
+Xác định số lượng bộ xử lý
+Xếp hạng của từng bộ xử lý
+Xác định số lượng bộ xử lý trong 1 bộ truyền thông",,,,,Đáp án: a
+189,"Câu 191:  Hàm int MPI_Finalize() được gọi khi:
+Kết thúc của tất cả tiến trình
+Kết thúc việc truyền thông
+Ở cuối mỗi chương trình
+Kết thúc của mỗi tiến trình",,,,,Đáp án: a
+190,"Câu 192:  Sau khi hàm MPI_Finalize() được thực thi:
+Các lời gọi MPI xa bị cấm
+Có thể khởi tạo lại bộ truyền thông bằng lời gọi MPI_Init()
+Kết thúc chương trình
+Tất cả đều đúng",,,,,Đáp án: a
+191,"Câu 193: Để biên dịch chương trình MPI từ dòng lệnh, ta chạy lệnh nào?
+mpic++ mpi_hello.cpp –o mpi_hello
+mpicompiler mpi_hello.cpp –o mpi_hello
+mpic mpi_hello.cpp –o mpi_hello
+mpic++ mpi_hello.cpp",,,,,Đáp án: a
+192,"Câu 194:  Để thực thi chương trình MPI hello từ dòng lệnh, ta chạy lệnh nào?
+mpiexec –np <số bộ xử lý> mpi_hello
+mpirun –np <số bộ xử lý> mpi_hello
+mpiexec –np mpi_hello
+mpirun –np 3 mpi_hello",,,,,Đáp án: a
+193,"Câu 195:  Khi biên dịch chương trình MPI trong Visual C, lỗi gặp phải sau đây là lỗi nào?
+Chưa khai báo sử dụng thư viện trong chương trình
+Thiếu thư viện
+Lỗi cú pháp
+Trình biên dịch không tìm thấy thư viện phù hợp",,,,,Đáp án: a
+194,"Câu 196: Khi biên dịch chương trình MPI trong Visual C, lỗi gặp phải sau đây là lỗi nào?
+Chưa khai báo tên thư viện .lib hoặc .dll trong chương trình
+Lỗi cú pháp
+Không tìm thấy thư viện cần thiết
+Trình biên dịch không tìm thấy thư viện phù hợp",,,,,Đáp án: a
+195,"Câu 197: Để thêm thư viện vào trong chương trình MPI trong Visual C, ta phải vào mục nào?
+Tools/Options/Directories
+Tools/Options/Link
+Project/Settings/Link
+Project/Settings/Object Modules",,,,,Đáp án: a
+196,"Câu 198: Để thêm 1 thư viện .lib vào trong chương trình MPI trong Visual C, ta phải vào mục nào?
+Project/Settings/Link/Object & library Modules
+Project Settings/Object Modules
+Project/Settings/Link
+Project/Setting/Add Library",,,,,Đáp án: a
+197,"Câu 199:  Chương trình sau dùng để làm gì?
+Đăng ký tài khoản Administrator với bộ truyền thông MPI
+Đăng ký 1 tài khoản với hệ thống
+Đăng ký tài khoản Administrator với hệ thống
+Lấy thông tin đăng nhập tài khoản Administrator",,,,,Đáp án: a
+198,"Câu 200:  Chương trình cấu hình MPICH2 sau khi chạy và bấm Get Settings:
+Không thành công, tên máy chưa chuyển thành màu xanh lá cây
+Thành công, đã lấy được tên máy là son-pc
+Hiển thị tất cả các thông số thiết lập cho máy son-pc để chạy MPI
+Chỉ lấy ra được tên máy son-pc",,,,,Đáp án: a
+199,"Câu 201:  Chương trình thực thi MPI với ô checkbox được đánh dấu như sau dùng để làm gì?
+Để các tiến trình chạy trên các cửa sổ độc lập với nhau
+Để chạy bình thường trong cửa sổ
+Để các tiến trình chạy trên các cửa sổ command prompt độc lập với nhau
+Không câu nào đúng",,,,,Đáp án: a
+200,"Câu 202: Sau khi cài đặt xong, đường dẫn tới thư mục chứa các chương trình thực thi MPI là:
+[đường dẫn]\MPICH2\bin
+[đường dẫn]\MPICH2\include
+C:\MPICH2\bin
+C:\MPICH2\include",,,,,Đáp án: a
+201,"Câu 203:  Sau khi cài đặt xong, thư mục chứa các thư viện MPI là:
+[đường dẫn]\MPICH2\lib
+[đường dẫn]\MPICH2\bin
+C:\MPICH2\lib
+C:\MPICH2\include",,,,,Đáp án: a
+202,"Câu 204:  Sau khi cài đặt xong, thư mục chứa các file header phục vụ cho chương trình MPI là:
+include
+bin
+lib
+examples",,,,,Đáp án: a
+203,"Câu 205:  Để thiết lập mật khẩu cho tài khoản Administrator trong WindowsXP, ta làm thế nào?
+Click chuột phải lên My Computer, Manage/Local Users and Groups, chọn Administrator, click chuột phải chọn Set Password
+Click chuột phải lên My Computer, Manage/Local Users and Groups, chọn Administrator, Set Password
+Mật khẩu mặc định không cần chọn
+Không câu nào đúng",,,,,Đáp án: a
+204,"Câu 206:  Sau khi biên dịch xong chương trình MPI trong Visual C, muốn chạy nó ta phải bấm tổ hợp phím nào?
+Không câu nào đúng
+F5
+Ctrl + F5
+Shift + F5",,,,,Đáp án:  a
+205,"Câu 207: Vạch màu xanh khi click vào wmpiconfig.exe trong thư mục C:\Program Files\MPICH2\bin thể hiện điều gì?
+MPICH2 đã sẵn sàng chạy chương trình
+MPICH2 không thực hiện được
+Chạy được chương trình khi không có màu xanh",,,,,Đáp án: a
+206,"Câu 208: Vạch màu Nâu khi click vào wmpiconfig.exe trong thư mục C:\Program Files\MPICH2\bin thể hiện điều gì?
+MPICH2 sẽ không chạy được chương trình
+MPICH2  đã sẵn sàng chạy chương trình
+Chạy được chương trình khi không có màu xanh",,,,,Đáp án: a
+207,"Câu 209: Trong MPI có phần đính đường dẫn có file đuôi .lib, thì tên file đó là file nào?
+MPICH2.lib
+MPICH.lib
+MPI.lib
+INCLUDE.lib",,,,,Đáp án: a
+208,"Câu 210: Chương trình wmpiexec.exe có nhiệm vụ gì?
+Thực hiện các chương trình MPI theo các luồng khác nhau chương trình cả tuần tự và song song
+Thực hiện chỉ đối với các chương trình song song
+Thực hiện đối với chương trình tuần tự và chọn số luồng lớn hơn n
+Tất cả đều sai",,,,,Đáp án: a
+209,"Câu 211: Tại sao chúng ta phải đăng ký người sử dụng tại MPICH2?
+Đăng ký để nhận biết người dùng tại máy và chạy được chương trình
+Đăng ký để nhận biết người dùng ở xa để xử lý chạy chương trình gần
+Đăng ký để nhận biết chương trình khi không chạy được
+Đăng ký để nhận biết tính ngẫu nhiên của luồng",,,,,Đáp án: a
+210,"Câu 212: Khi cài đặt và cấu hình MPICH2 chúng ta có tắt tường lửa không?
+Có
+Không",,,,,Đáp án: a
+211,Câu 213: Chương trình MPICH2 muốn chạy được thì phải cài bộ công cụ nào?,a. Framework 2.0,b. Framework 1.0,c. MVC4,d. Explorer Internet,Đáp án: a
+212,"Câu 214: Chương trình MPI nhằm giải quyết vấn đều nào trong thực tế?
+Tính toán một số lượng dữ liệu lớn cần thời gian nhanh để thực hiện
+Tính toán số lượng vừa đủ và có khả năng gỡ lỗi
+Chỉ tính toán nhỏ trong phạm vi cục bộ
+Ít áp dụng vào thực tế",,,,,Đáp án: a
+213,"Câu 215: Chương trình MPI đa phần cài đặt và cấu hình sử dụng trên lệnh của?
+Unix
+Window
+Dos
+Chrome OS",,,,,Đáp án: a
+214,"Câu 216: Điểm nổi bật của MPI xử lý thế nào?
+Xử lý phân tán đa luồng
+Xử lý không luồng, có dữ liệu lớn
+Phân song song trên nhiều máy với số luồng cố định",,,,,Đáp án: a
+215,Câu 217: Máy tính không phải hệ điều hành Window XP có chạy được chương trình MPI không:,a. Có,b. Không,,,Đáp án:  a
+216,"Câu 218: Để viết chương trình MPI chúng ta sử dụng bộ công cụ nào?
+Visual studio
+Internet mannager
+Notepad
+Chỉ các tệp .cpp",,,,,Đáp án: a
+217,"Câu 219:  MPI đa phần sử dụng mô hình nào để thực hiện tính toán
+Gửi và nhận thông báo
+Phân các luồng
+Loại các luồng tuần tự
+Nhận thông báo sau đó hủy và gửi đi thông báo khác",,,,,Đáp án: a
+218,"Câu 220: Chúng ta tính toán tích phân thì MPI có thể xử lý được không?
+Có
+Không",,,,,Đáp án: a
+219,Câu 221: Một chương trình C++ muốn dùng được lệnh MPI thì ta phải đính kèm dòng lệnh nào?,a.  #include <mpi.h>,b.  #include <mpich.h>,c.  #include <mpich2.h>,d..  #include <stdio.h>,Đáp án: a
+220,Câu 222: MPI viết tắt của từ nào?,a.  Message-Passing Interface,b.  Message-Pass Interface,c.  Message-Passing Internet,d.  Message-Porting Interface,Đáp án: a
+221,Câu 223: Chỉ có MPI mới là chương trình xử lý phân luồng duy nhất?,a. Không,b. Có,,,Đáp án: a
+222,Câu 224: Nếu chương trình không phải là VC++6.0 thì chúng ta có cách nào chạy được MPI không?,a. Có thể sử dụng các bộ cung cụ khác của Microsoft,b. Không còn bộ công cụ nào,c. Cài trực tiếp MPICH2 và lập trình trên java,d. không đáp án đúng,Đáp án: a
+223,Câu 225: Bạn hiểu thế nào về tính toán phân tán?,a. Là những tính toán được thực hiện trên cơ sở kết hợp khả năng tính toán và truyền thông của hai hay nhiều máy tính trên mạng.,b. Là những tính toán được thực hiện trên cơ sở kết hợp khả năng tính toán và truyền thông của một hay nhiều máy tính trên mạng.,c. Là những tính toán được thực hiện trên cơ sở kết hợp khả năng tính toán và truyền thông của nhiều hay nhiều máy tính chỉ trên mạng cục bộ.,d. Là những tính toán được thực hiện trên cơ sở kết hợp khả năng tính toán và truyền thông của hai hay nhiều chip trên mạng.,Đáp án:  a
+224,"Câu 226: Mô hình tính toán phân tán có ưu điềm nào?
+Chia sẻ dữ liệu trên nhiều máy khác nhau
+Phân tán các con số trên nhiều máy và ngăn chặn tắc dữ liệu
+Độ tin cậy đạt mực độ tương đối nhỏ
+Tất cả đều đúng",,,,,Đáp án:  a
+225,"Câu 227: Các đơn vị xử lý song song trong mô hình nhận và gửi thông báo là?
+Các tiến trình
+Các máy tính
+Các bộ xung nhịp tiến trình
+Các con chíp phân tán",,,,,Đáp án: a
+226,"Câu 228: Buffer dùng để làm gì trong xử lý?
+Để lưu trữ tạm các thông điệp cần trao đổi giữa các tiến trinh
+Để lưu trữ dữ liệu
+Để chuyển dữ liệu đi giữa các bộ tiến trình",,,,,Đáp án: a
+227,"Câu 229: Hàm MPI_Init dùng để làm gì
+Khởi tạo môi trường MPI
+Kết thúc môi trường MPI
+Khởi tạo và kết thúc xen lẫn nhau
+Khởi tạo xong rùi mới kết thúc luôn",,,,,Đáp án: a
+228,"Câu 229:  Biến rank  trả về cái gì?
+Trả về số hiệu tiến trình
+Trả về kích thước của luồng
+Trả về tên luồng
+Trả về luồng số 0",,,,,Đáp án: a
+229,"Câu 230: Tham số msgtag  là gì
+Số hiệu của thông báo
+Số hiệu của tiến trình
+Số hiệu của thời gian
+Số hiệu của phân luồng",,,,,Đáp án: a
