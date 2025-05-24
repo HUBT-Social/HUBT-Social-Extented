@@ -44,33 +44,16 @@ def question_modify(classified: list[tuple[str, str]]) -> list[dict]:
     questions = []
     current_question = None
     collecting_question = False
-
+    skip_question = False
     for line, label in classified:
         clean_line = line.replace("[QUESTION]", "").replace("[ANSWER]", "").replace("[CORRECT_ANSWER]", "").strip()
 
-        if label == "question":
-            # Nếu là bắt đầu câu hỏi mới
-            if not collecting_question:
-                # Lưu lại câu hỏi cũ (nếu có)
-                if current_question:
-                    if current_question["question"] and current_question["answers"] and current_question["correct"]: 
-                        questions.append(current_question)
-                current_question = {"question": [clean_line], "answers": [], "correct": None}
-                collecting_question = True
-            else:
-                # Nếu tiếp tục là question => nối thêm vào nội dung
-                current_question["question"].append(clean_line)
 
-        elif label == "answer":
-            if current_question:
-                current_question["answers"].append(clean_line)
-                collecting_question = False  # Chấm dứt nối câu hỏi nếu gặp answer
-
-        elif label == "correct_answer":
+        if label == "correct_answer":
+            skip_question = False  
             if current_question:
                 current_question["correct"] = clean_line
                 collecting_question = False
-
                 # ✅ Sau khi có correct_answer → xử lý lại danh sách answers
                 all_answers = current_question["answers"]
                 all_questions = current_question["question"]
@@ -97,6 +80,32 @@ def question_modify(classified: list[tuple[str, str]]) -> list[dict]:
                     
                     current_question["answers"] = [ans for ans in valid_answers]
                     current_question["question"] = remain_question
+        
+        if skip_question:
+            continue
+        
+        elif label == "question":
+            # Nếu là bắt đầu câu hỏi mới
+            if not collecting_question:
+                # Lưu lại câu hỏi cũ (nếu có)
+                if current_question:
+                    if current_question["question"] and current_question["answers"] and current_question["correct"]: 
+                        questions.append(current_question)
+                    else:
+                        skip_question = True
+                        current_question = None
+                        continue
+                current_question = {"question": [clean_line], "answers": [], "correct": None}
+                collecting_question = True
+            else:
+                # Nếu tiếp tục là question => nối thêm vào nội dung
+                current_question["question"].append(clean_line)
+
+        elif label == "answer":
+            if current_question:
+                current_question["answers"].append(clean_line)
+                collecting_question = False  # Chấm dứt nối câu hỏi nếu gặp answer
+
 
     # Thêm câu hỏi cuối cùng nếu chưa thêm
     if current_question["question"] and current_question["answers"] and current_question["correct"]: 
@@ -170,7 +179,13 @@ if __name__ == "__main__":
         ("[ANSWER] Để các tiến trình chạy trên các cửa sổ độc lập với nhau", "answer"),
         ("[QUESTION] Để chạy bình thường trong cửa sổ", "question"),  # ❌ gán nhầm
         ("[ANSWER] Để các tiến trình chạy trên các cửa sổ command prompt độc lập với nhau", "answer"),
-        ("[QUESTION] Không câu nào đúng", "question"),  # ❌ gán nhầm
+        ("[ANSWER] Không câu nào đúng", "answer"),  # ❌ gán nhầm
+        ("[CORRECT_ANSWER] Đáp án: a", "correct_answer"),
+        ("[QUESTION] Câu 202:  Chương trình thực thi MPI với ô checkbox được đánh dấu như sau dùng để làm gì?", "question"),
+        ("[ANSWER] Để các tiến trình chạy trên các cửa sổ độc lập với nhau", "answer"),
+        ("[ANSWER] Để chạy bình thường trong cửa sổ", "answer"),  # ❌ gán nhầm
+        ("[ANSWER] Để các tiến trình chạy trên các cửa sổ command prompt độc lập với nhau", "answer"),
+        ("[ANSWER] Không câu nào đúng", "answer"),  # ❌ gán nhầm
         ("[CORRECT_ANSWER] Đáp án: a", "correct_answer"),
     ]   
 
