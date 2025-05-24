@@ -53,7 +53,8 @@ def question_modify(classified: list[tuple[str, str]]) -> list[dict]:
             if not collecting_question:
                 # Lưu lại câu hỏi cũ (nếu có)
                 if current_question:
-                    questions.append(current_question)
+                    if current_question["question"] and current_question["answers"] and current_question["correct"]: 
+                        questions.append(current_question)
                 current_question = {"question": [clean_line], "answers": [], "correct": None}
                 collecting_question = True
             else:
@@ -98,7 +99,7 @@ def question_modify(classified: list[tuple[str, str]]) -> list[dict]:
                     current_question["question"] = remain_question
 
     # Thêm câu hỏi cuối cùng nếu chưa thêm
-    if current_question:
+    if current_question["question"] and current_question["answers"] and current_question["correct"]: 
         questions.append(current_question)
 
     return questions
@@ -156,3 +157,22 @@ def dataframe_convert(questions: list[dict]) -> list[dict]:
     # Ghi ra file JSON
     df.to_json("output.json", force_ascii=False, orient="records", indent=2)
 
+if __name__ == "__main__":
+    # Ví dụ sử dụng
+    classified_data = [
+        ("[QUESTION] Câu 200:  Chương trình thực thi MPI với ô checkbox được đánh dấu như sau dùng để làm gì?", "question"),
+        ("[ANSWER] Để các tiến trình chạy trên các cửa sổ độc lập với nhau", "answer"),
+        ("[ANSWER] Để chạy bình thường trong cửa sổ", "answer"),  # ❌ gán nhầm
+        ("[ANSWER] Để các tiến trình chạy trên các cửa sổ command prompt độc lập với nhau", "answer"),
+        ("[ANSWER] Không câu nào đúng", "answer"),  # ❌ gán nhầm
+        ("[CORRECT_ANSWER] Đáp án: a", "correct_answer"),
+        ("[QUESTION] Câu 201:  Chương trình thực thi MPI với ô checkbox được đánh dấu như sau dùng để làm gì?", "question"),
+        ("[ANSWER] Để các tiến trình chạy trên các cửa sổ độc lập với nhau", "answer"),
+        ("[QUESTION] Để chạy bình thường trong cửa sổ", "question"),  # ❌ gán nhầm
+        ("[ANSWER] Để các tiến trình chạy trên các cửa sổ command prompt độc lập với nhau", "answer"),
+        ("[QUESTION] Không câu nào đúng", "question"),  # ❌ gán nhầm
+        ("[CORRECT_ANSWER] Đáp án: a", "correct_answer"),
+    ]   
+
+    processed_questions = question_modify(classified_data)
+    print(processed_questions)
